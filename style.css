@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  /* background-color: antiquewhite; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header {
+  display: flex;
+  /* background-color: aqua; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #797976;
+  transition: all 0.5s ease-in-out;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #c3c3c2;
+}
+
+.filter-input {
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c3c3c2;
+  background: transparent;
+}
+
+.items {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.items li {
+  border: 1px solid #c3c3c2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cross {
+  color: red;
+  background: transparent;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.clearAll {
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #c3c3c2;
+  background: transparent;
+  cursor: pointer;
+}
+
+.clearAll:hover {
+  background-color: #ededed;
+  transition: all 0.4s ease-in-out;
+}
+.edit {
+  color: red;
+}
